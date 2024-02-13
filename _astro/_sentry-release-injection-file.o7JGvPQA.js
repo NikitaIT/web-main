@@ -1,0 +1,2 @@
+(function(){try{var e=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{},d=new Error().stack;d&&(e._sentryDebugIds=e._sentryDebugIds||{},e._sentryDebugIds[d]="de586cd2-ab2e-4632-98e1-3618fc7a863d",e._sentryDebugIdIdentifier="sentry-dbid-de586cd2-ab2e-4632-98e1-3618fc7a863d")}catch{}})();var n=typeof window<"u"?window:typeof global<"u"?global:typeof self<"u"?self:{};n.SENTRY_RELEASE={id:"efc92c81ea6675893b5fa2e25c7d3c7272db4832"};
+//# sourceMappingURL=_sentry-release-injection-file.o7JGvPQA.js.map
