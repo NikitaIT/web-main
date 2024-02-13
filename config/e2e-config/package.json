@@ -1,0 +1,15 @@
+{
+  "name": "e2e-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "playwright.config.ts",
+  "types": "playwright.config.ts",
+  "scripts": {
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "prettier-config": "workspace:*",
+    "@playwright/test": "^1.40.1"
+  },
+  "prettier": "prettier-config"
+}

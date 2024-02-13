@@ -1,0 +1,94 @@
+{
+  "folders": [
+    {
+      "name": "✨ root",
+      "path": "../"
+    },
+    {
+      "name": "config",
+      "path": "../config"
+    },
+  ],
+  "settings": {
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.includeLanguages": {
+      "plaintext": "javascript"
+    },
+    "tailwindCSS.experimental.classRegex": [
+      ["cva\\(([^;]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+      ["className\\:([^;]*);", "'([^']*)'"],
+      ["className\\:([^;]*);", "\"([^\"]*)\""],
+      ["className\\:([^;]*);", "\\`([^\\`]*)\\`"]
+    ],
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "markdownlint.run": "onSave",
+    // "conventionalCommits.scopes": [
+    //   "docs"
+    // ]
+    "editor.rulers": [80],
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.graphql.pubsub": "graphql",
+      "*.graphql.ext": "graphql",
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "search.exclude": {
+      "**/public": true,
+      "**/.contentlayer": true,
+      "**/.next": true,
+      "**/__registry__": true,
+      "**/dist": true,
+      "**/turbo": true,
+      "**/node_modules": true,
+      "**/gen": true,
+      "**/.tsbuildinfo": true
+    },
+    "search.useIgnoreFiles": true,
+    // exclude ignored files from search
+    // todo: need include .env
+    // "search.useParentIgnoreFiles": true,
+    // "search.useGlobalIgnoreFiles": true,
+    // "search.useIgnoreFiles": true,
+    // plantuml-server
+    "plantuml.render": "PlantUMLServer",
+    "plantuml.server": "http://localhost:8089",
+    "[plantuml]": {
+      "editor.defaultFormatter": "jebbs.plantuml"
+    },
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "typescript.inlayHints.variableTypes.enabled": true,
+    "eslint.lintTask.enable": true,
+    "mdx.experimentalLanguageServer": true,
+    "[astro]": {
+      "editor.defaultFormatter": "astro-build.astro-vscode"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.documentSelectors": [
+      "**/*.{cjs,mjs,ts,tsx,astro,md,mdx,json,yaml,yml}"
+    ],
+
+    "jest.disabledWorkspaceFolders": [
+      "✨ root",
+      "config"
+    ],
+  }
+}

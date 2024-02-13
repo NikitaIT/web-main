@@ -1,0 +1,22 @@
+{
+  "name": "unit-config",
+  "type": "module",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "@testing-library/jest-dom": "6.1.4",
+    "@testing-library/react": "14.1.2",
+    "@testing-library/user-event": "14.5.1",
+    "@types/jest": "29.5.10",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "29.7.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-jest": "^29.1.1",
+    "tsconfig": "workspace:*",
+    "prettier-config": "workspace:*"
+  },
+  "prettier": "prettier-config"
+}

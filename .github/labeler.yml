@@ -1,0 +1,14 @@
+"📌 area: config":
+  - any: ["config/**/*"]
+
+"📌 area: apps":
+  - any: ["apps/**/*"]
+
+"📚 documentation":
+  - any: ["**/*.md"]
+
+"📌 area: ci":
+  - any: [".github/**/*"]
+
+"📌 area: blog":
+  - any: ["**/*.mdx"]
